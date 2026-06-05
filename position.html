@@ -1,9 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <!-- Bootstrap Icons: https://icons.getbootstrap.com/ -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
     <style>
         .icon {
             width: 100px;
@@ -48,10 +53,25 @@
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 20px;
-            height: 2000px; /* Para demostrar el efecto de desplazamiento */
+            height: 2000px;
+            /* Para demostrar el efecto de desplazamiento */
+        }
+
+        .bi-whatsapp {
+            font-size: 48px;
+            color: #25D366;
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+
+            &:hover {
+                color: #128C7E;
+                cursor: pointer;
+            }
         }
     </style>
 </head>
+
 <body>
     <div class="icon">Icon</div>
     <h1>Bienvenido a mi sitio web</h1>
@@ -59,8 +79,13 @@
 
     <section>
         <h2>Contenido adicional</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel sapien eget nunc efficitur varius. Sed at ligula a nunc efficitur bibendum. Curabitur ac odio nec nisl convallis tincidunt. Proin ut ligula a nunc efficitur bibendum. Curabitur ac odio nec nisl convallis tincidunt.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel sapien eget nunc efficitur varius. Sed at
+            ligula a nunc efficitur bibendum. Curabitur ac odio nec nisl convallis tincidunt. Proin ut ligula a nunc
+            efficitur bibendum. Curabitur ac odio nec nisl convallis tincidunt.</p>
         <div class="icon-2">Icon 2</div>
     </section>
+
+    <i class="bi bi-whatsapp"></i>
 </body>
+
 </html>
